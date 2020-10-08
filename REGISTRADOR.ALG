@@ -9,7 +9,7 @@ fimregistro
 Var
 
 
-cliente:vetor[0..4] de ficha
+cliente:vetor[1..5] de ficha
 controle:inteiro
 
 Inicio
