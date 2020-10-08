@@ -8,23 +8,21 @@ idade:inteiro
 fimregistro
 Var
 
-
 cliente:vetor[1..5] de ficha
 controle:inteiro
 
 Inicio
 
-
   para controle de 1 ate 4 faca
   
     escreva("Escreva o",controle," nome : ")
-    leia (cliente[controle].nome)
+      leia (cliente[controle].nome)
     escreva("Escreva a",controle," idade : ")
-    leia (cliente[controle].idade)
+      leia (cliente[controle].idade)
     
     escreval
   fimpara
-  escreval
+    escreval
  
  controle <- 1
  
